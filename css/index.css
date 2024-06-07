@@ -6,7 +6,7 @@ main{
 
 /*fundo imagem */
 .bg{
-  background-image: url("img/praiabg.jpg");
+  background-image: url("/img/praiabg.jpg");
   filter: blur(5px);
   display: flex;
   background-repeat: no-repeat;
