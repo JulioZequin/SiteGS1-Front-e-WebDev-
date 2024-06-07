@@ -1,0 +1,29 @@
+/* rodape */
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #143E3E;
+    text-align: center;
+    height: 10vh;
+    max-height: 10hv;
+  }
+
+  /*tamanho nomes do rodape*/
+.nomes{
+  font-size: 1.5vh;
+  color: white;
+  
+}
+
+.rodape p{
+  color: white;
+
+}
+
+.logo_nome{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  max-height: 10hv;
+}

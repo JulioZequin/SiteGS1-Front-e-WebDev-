@@ -1,0 +1,75 @@
+/* titulo */
+h1{
+    color: white;
+    font-size: 3vw;
+    align-self: center;
+}
+
+/* fundo */
+div.bg{
+    background: linear-gradient(rgba(9,50,50,1) 14%, rgba(22,117,118,1) 69%, rgba(31,168,169,1) 100%);
+    height: 125vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* bloco principal */
+.principal{
+    position: absolute;
+    /* justify-content: space-around; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+/* bloco textos e linha */
+.secundario{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* bloco texto e imagem */
+.bloco{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1rem;
+    align-items: center;
+}
+
+/* imagem */
+.img{
+    width: 100%;
+    max-width: 100%;
+    margin: 2vw;
+    border-radius: 10px;
+}
+
+
+/* linha de divisão */
+.linha{
+    border-left: 0.2rem solid white;
+    height: 40vw;
+    margin: 0% 5%;
+}
+
+
+/* texto*/
+.texto{
+    margin: 2vw;
+    border-radius: 10px;
+    width: 80%;
+    padding: 2vw;
+    text-align: center;
+    font-size: 2vw;
+    font-family: "Times New Roman", Times, serif;
+    color: whitesmoke;
+    background-color: rgba(31, 168, 169, 0.5);
+  }
